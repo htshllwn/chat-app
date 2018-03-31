@@ -1,0 +1,190 @@
+body{
+	overflow: hidden;
+}
+.img{
+
+	
+    /* Full height */
+    /*height: 600px;	 */
+    /* Center and scale the image nicely */
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    height:100vh;
+    width: 100%;
+    background:url(../img/img.jpg);
+    /*background: url('../images/header.jpg') no-repeat center center; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+}
+
+#particles-js{
+	  height:100vh;
+    width: 100%;
+    /*background:url(../img/img.jpg);*/
+    /*background: url('../images/header.jpg') no-repeat center center; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+}
+
+.box{
+	  max-width:450px;
+	  margin: 0 auto;
+	  position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    background-color: black;
+    /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.70;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    /*Opacity end*/
+    color: white;
+
+	
+
+
+}	
+
+
+.header1 {
+    /*background-color: black;*/
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+    /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.50;
+    -khtml-opacity: 0.5;
+    /*opacity: 0.4;*/
+    /*Opacity end*/
+    color: white;
+    position: fixed;
+}
+
+.nav-wrapper {
+	color: white!important;
+
+}
+
+.login-box{
+	height: auto;
+	padding: 10px;
+	/*width: 400px;*/
+
+}
+
+.center-1{
+	/*padding: 10px;*/
+	margin: 10px;
+}
+
+
+.input-field{
+	margin-bottom: 8px;
+	font-size: 18px;
+}
+
+
+.wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.gap{
+	margin-left: 12px;
+}
+
+
+
+/***********************************************************************/
+
+@media only screen and (max-width: 600px) {
+  .box{
+	
+	min-width:300px;
+	margin: 0 auto;
+	margin-left:5px;
+	margin-right: 5px;
+	position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    background-color: black;
+  /* Opacity start */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.70;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    /* opacity end */
+    color: white;
+
+}
+
+
+}
+
+
+
+/**********************************************************************************/
+/*it contain css of particle js*/
+
+
+ canvas{ display: block;
+  vertical-align: bottom;
+  height: 100vh;
+  }
+
+
+
+  #particles canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:-300px;
+    z-index: -1;
+}
+
+
+ /* ---- stats.js ---- */ 
+ .count-particles{ background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  }
+ .js-count-particles{ 
+ 	font-size: 1.1em;
+  }
+
+ #stats, .count-particles{ 
+ 	-webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+  }
+
+ #stats{ border-radius: 3px 3px 0 0;
+  overflow: hidden;
+  }
+ .count-particles{ 
+ 	border-radius: 0 0 3px 3px;
+  }
+

@@ -1,0 +1,60 @@
+
+
+ nav ul a{
+	padding: 0 25px;
+}
+
+
+nav .brand-logo{
+	padding-left: 10px;
+}
+
+.login-box{
+	
+	background-color: ;
+	
+	height: 300px;
+	/*border: solid;*/}
+
+
+.box{
+   margin-top: 100px;
+
+
+}
+
+.margin-top{
+	margin-top: 20px;
+	padding: 20px;
+}
+
+body{
+	background-color:#dddd;
+}
+
+/*style of button*/
+
+.btn {
+  /*border: 2px solid #4CAF50;*/
+  /*background-color: white;*/
+  color: black;
+  padding: 0 18px;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/* Green */
+.success {
+  /*background-color: #4CAF50;*/
+  color: white;
+
+}
+
+.success:hover {
+  
+  opacity: .8;
+  color: green;
+}

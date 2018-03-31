@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 
+body{
+    overflow: hidden;
+} */
+
+
+.card-2{
+    height: 60vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 0;
+}
+
+.viewer-list ,.presenter-list{
+  height:40vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin-bottom: 7px;
+}
+
+.block-1{
+    border: solid 1px grey;
+    height: 15vh;
+}
+
+.block-presenter{
+    background: white;
+
+    
+}
+
+.card .card-content span{
+    color:white;
+    padding: 6px;
+    font-size: 14px;
+    max-width: 400px;
+   
+    
+}
+
+.card .card-content p{
+    color: black;
+    padding: 6px;
+    font-size: 16px;
+    max-width: 400px;
+    border-radius: 9px;
+}
+
+li div a{
+	text-decoration: none;
+	color: white;
+	position: relative;
+    top:-10px;
+    left:10px;
+    font-size: 18px;
+
+
+}
+
+.bg-col-1{
+    background-color:rgba(0, 0, 0, 0) ;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    border-top: solid 1px white;
+ 
+
+}
+
+.msg{
+  max-width: 500px;
+
+}
+
+.card-1{
+    height: 20vh;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+
+input{
+    color:black;
+}
+
+.usernm{
+    font-size: 16px;
+    color: red;
+}
+

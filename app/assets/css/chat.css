@@ -1,0 +1,486 @@
+/* body{
+    overflow: hidden;
+} */
+
+
+.img{
+
+    
+    /* Full height */
+    /*height: 600px;     */
+    /* Center and scale the image nicely */
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    height:100vh;
+    width: 100%;
+    /* background:url(../img/img.jpg); */
+    background: black;
+    /*background: url('../images/header.jpg') no-repeat center center; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+}
+
+/*logout  menu*/
+.logout:hover{
+    color:red;
+   
+
+}
+
+.collection.with-header .collection-header {
+    background-color: rgba(0, 0, 0, 0);
+   
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+
+.collection .collection-item {
+     background-color: rgba(0, 0, 0, 0);
+   color: white;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+
+li div a{
+	text-decoration: none;
+	color: white;
+	position: relative;
+    top:-10px;
+    left:10px;
+    font-size: 20px;
+
+
+}
+
+.collection{
+    margin: 0;
+    height: auto;
+}
+
+.grey.lighten-1 {
+    background-color: #bdbdbd !important;
+}
+
+
+
+
+
+
+.row-margin-0{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.wid{
+ height: auto;
+}
+
+/*row->default css of materialize*/
+ .row{
+    margin-bottom: 0px;
+ }
+
+.scrol{
+	height: 455px;
+	overflow: scroll;
+    overflow-x: hidden;
+}
+
+.scrol-chat{
+    height: 492px;
+    
+}
+
+.right{
+	float: right;
+	margin-top: 25px;
+	font-size: 20px;
+	margin-left: 4px;
+}
+
+
+/*body
+{
+    overflow: hidden;
+}*/
+
+/*this is background for the chat box*/
+.bg-col{
+	/*background-color: red;*/
+	/*background-color: white;*/
+
+	padding: 20px 30px;
+}
+
+
+.container-2 p{
+	    text-align: justify;
+        text-justify: inter-word;
+        margin-bottom: 0;
+        margin-top:4px;
+        padding-bottom: 0;
+        padding-top: 0;
+}
+
+.container-2 {
+    border: 2px solid #dedede;
+    background-color:#f9f9ed;
+    border-radius: 5px;
+    padding: 0 12px;
+    margin: 10px 0;
+    width:40%;
+    word-wrap: break-word;
+    
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: white;
+    /*margin-left: 0;*/
+    margin-left:auto; 
+    margin-right:0;
+    /*float:right;*/
+    overflow:auto;
+}
+
+.container-2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+
+/*this is chating text box*/
+
+.bg-col-1{
+    background-color:rgba(0, 0, 0, 0) ;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    border-top: solid 1px white;
+ 
+
+}
+
+.a input[type=text]{
+    width: 96%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin:10px 8px;
+    font-size: 18px;
+    /*background-color:rgba(0, 0, 0, 0) ;*/
+}
+
+
+
+
+
+/**********chat text box end  */
+.row .col{
+    padding: 0 .2rem;
+}
+
+.pk{
+   
+    font-size: 20px;
+}
+
+.pos{
+    position: relative;
+    top: 5px;
+    right: 5px;
+
+}
+
+.collection .collection-item.avatar {
+    min-height: 70px;
+    padding-left: 72px;
+    position: relative;
+}
+
+
+/*hover over the list of user*/
+.hov1:hover {
+     
+    /*color: ;  Fallback for older browsers */
+    /*color: rgba(0, 0, 0);*/
+
+    cursor: pointer;
+
+}
+
+
+/*class of user1 and user2*/
+.user_id_1{
+    color: #f8666b;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.user_id_2{
+     color: #2e4874;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*hover over the user in chatbox*/
+ .container-2:hover .user_id_1,.container-2:hover .user_id_2{
+    text-decoration: underline;
+ }
+
+
+ #toggle{
+     font-size: 20px;
+     padding-left: 20px;
+     position: relative;
+     top: 3px;
+     
+ }
+
+ #toggle center{
+    position: relative;
+    top: 10px;
+    left: -8px;
+ }
+
+
+ .back-arrow{
+    font-size: 20px!important;
+    /*padding-right: 4px;*/
+    position: relative;
+    bottom: 9px;
+    /*margin-right:4px;*/
+    color:white;
+
+ }
+  
+  i.margin-right {
+    float: left;
+    margin-right: 1px;
+    padding-right: 8px;
+    padding-top: 8px;
+}
+
+
+
+.sz:hover{
+    cursor: none;
+
+}
+
+/*mobile screen css*/
+
+@media only screen and (max-width: 600px) {
+    /* For desktop: */
+
+.scrol-chat{
+   max-height: 542px;
+    
+ }
+}
+
+
+
+
+/*for the small screen*/
+@media only screen and (max-width: 500px) {
+   
+
+.scrol-chat{
+   max-height: 342px;
+   padding: 6px;
+    
+}
+
+
+
+
+
+  .container-2 {
+    border: 2px solid #dedede;
+    background-color:#f9f9ed;
+    border-radius: 5px;
+    /* padding: 2px; */
+    /*padding: 0 12px;*/
+    margin: 0px 0px;
+    width:90%;
+    
+    word-wrap: break-word;
+    
+  }
+
+.darker {
+    border-color: #ccc;
+    background-color: white;
+    /*margin-left: 0;*/
+    margin-left:auto; 
+    margin-right:0;
+    /*float:right;*/
+    /* overflow:auto; */
+  }
+
+.dis{
+    display: inline;
+}
+
+ 
+  .pos{
+    position: relative;
+    top: 3px;
+    left: 10px;
+    margin-top: 1px;
+    width: 50px;
+    height: 50px;
+
+}
+}
+
+
+/* new change */
+
+
+
+.new input[type=text], .new input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  
+    cursor: pointer;
+  
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+
+
+
+
+.container1 {
+    padding: 8px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    /* position: ; Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color:black; /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color:white;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    /* border: 1px solid #888; */
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+/*  */
+
+
+
+.user1{
+    text-decoration: none;
+   padding: 10px;
+    color: white;
+}
+
+input[type=checkbox]{
+    color: #aaa;
+}

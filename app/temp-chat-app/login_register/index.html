@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>cynixIM</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="instant chating application">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="CYNIX">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     
+
+<!-- navigation bar -->
+  <nav>
+    <div class="nav-wrapper #880e4f pink darken-4">
+      <a href="#!" class="brand-logo"><i class="material-icons">message</i>cynIM</a>
+      <ul id="nav-mobile"  class="right hide-on-small-only">
+        <li class="medium"><a href="sass.html"><i class="left material-icons">person_pin</i>Login</a></li>
+        <li class="medium"><a href="sass.html"><i class="left material-icons">person_add</i>Register</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+   <!-- login form -->
+  <div class="row  box">
+       <div class="col s4 offset-s4 z-depth-3 login-box white">
+            
+      <div class="row">
+        <form method="post" action="">
+          <div class="margin-top">
+
+            <div class="input-field col s10">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="validate"  autocomplete="off" required>
+              <label for="icon_prefix black">Authenticate User</label>
+            </div>
+
+            <div class="input-field col s10">
+              <i class="material-icons prefix">lock</i>
+              <input id="icon_telephone" type="password" class="validate" autocomplete="off" required minlength="8">
+              <label for="icon_telephone">Password</label>
+            </div>
+           <div class="row">
+             <div class="col s6"> 
+              <button class="btn success #880e4f pink darken-4 right">&nbspLOGIN&nbsp</button></div>
+         
+           
+            <div class="col s4"> 
+              <button class="btn success #880e4f pink darken-4" >&nbspCANCEL&nbsp</button></div>
+          </div>
+           </div>
+
+        </form>
+      </div>         
+    </div>
+
+  </div>
+    
+
+    <!-- javascript files -->
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+</body>
+</html>

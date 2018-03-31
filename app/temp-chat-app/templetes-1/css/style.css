@@ -1,0 +1,172 @@
+
+.collection-changed{
+	/*max-width: 400px;*/
+}
+
+li div a{
+	text-decoration: none;
+	color:black;
+	position: relative;
+    top:-10px;
+    left:10px;
+    font-size: 20px;
+
+}
+
+.row-margin-0{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.wid{
+ height: 70px;
+}
+
+.scrol{
+	height: 455px;
+	overflow: scroll;
+    overflow-x: hidden;
+}
+
+.scrol-chat{
+    height: 492px;
+    
+}
+
+.right{
+	float: right;
+	margin-top: 25px;
+	font-size: 20px;
+	margin-left: 4px;
+}
+
+
+body
+{
+    overflow: hidden;
+}
+
+/*this is background for the chat box*/
+.bg-col{
+	/*background-color: red;*/
+	/*background-color: white;*/
+	padding: 20px 30px;
+}
+
+
+.container-2 p{
+	    text-align: justify;
+        text-justify: inter-word;
+        margin-bottom: 0;
+        margin-top:4px;
+        padding-bottom: 0;
+        padding-top: 0;
+}
+
+.container-2 {
+    border: 2px solid #dedede;
+    background-color:#f9f9ed;
+    border-radius: 5px;
+    padding: 0 12px;
+    margin: 10px 0;
+    width:40%;
+    word-wrap: break-word;
+    
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: white;
+    /*margin-left: 0;*/
+    margin-left:auto; 
+    margin-right:0;
+    /*float:right;*/
+    overflow:auto;
+}
+
+.container-2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+/*for the small screen*/
+@media only screen and (max-width: 600px) {
+    /* For desktop: */
+    body
+{
+    overflow: scroll;
+}
+}
+
+
+/*this is chating text box*/
+
+.bg-col-1{
+    background-color: white;
+    height: 70px;
+    position: relative;
+    bottom: 8px;
+}
+
+.a input[type=text]{
+    width: 96%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin:10px 8px;
+}
+
+.row .col{
+    padding: 0 .2rem;
+}
+
+.pk{
+   
+    font-size: 24px;
+}
+
+.pos{
+    position: relative;
+    top: 5px;
+    right: 5px;
+
+}
+
+.collection .collection-item.avatar {
+    min-height: 70px;
+    padding-left: 72px;
+    position: relative;
+}
+
+#hov:hover {
+  background:#e9ebee;
+}
+
+#user_id_1{
+    color: #f8666b;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#user_id_2{
+     color: #2e4874;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+ .container-2:hover #user_id_1,.container-2:hover #user_id_2{
+    text-decoration: underline;
+ }
+
